@@ -1,2 +1,2 @@
-# nexible-js
-nothing here yet
+# nexible-js - The next js framework
+coming soon
