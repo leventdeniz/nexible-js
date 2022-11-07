@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "HeroFont";
+  src: url("./resources/hero-font.otf");
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.canvas-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-wrapper {
+  height: 150px;
+  background-color: #ae1f25;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 250px;
+  height: 80px;
+  font-family: HeroFont, Verdana, Arial, sans-serif;
+  background-color: #ae1f25;
+  color: #fff;
+  border: #ae1f25;
+  border-radius: 4px;
+}
+
+canvas {
+  width: 1024px;
+  height: 600px;
+}
+
+h1 {
+  text-align: center;
+  font-family: HeroFont, Verdana, Arial, sans-serif;
+  font-size: 55px;
+  color: #fff;
+}
