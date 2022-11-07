@@ -36,7 +36,7 @@ body {
 button {
   width: 250px;
   height: 80px;
-  font-family: HeroFont;
+  font-family: HeroFont, Verdana, Arial, sans-serif;
   background-color: #ae1f25;
   color: #fff;
   border: #ae1f25;
